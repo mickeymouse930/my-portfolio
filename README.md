@@ -1,0 +1,48 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <title>Yoshiki | Web Developer</title>
+
+  <!-- STEP 4で作成するCSSファイル -->
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+  <header>
+    <h2>YOSHIKI.</h2>
+  </header>
+
+  <main>
+    <h1>Hi, I'm Yoshiki — Web Developer.</h1>
+
+    <p>
+      I'm learning web development and
+      working toward my future in Canada.
+    </p>
+
+    <h2>About Me</h2>
+    <p>
+      I'm an aspiring web developer from Japan.
+    </p>
+
+    <h2>My Works</h2>
+    <p>My projects are coming soon!</p>
+
+    <h2>My Skills</h2>
+    <p>HTML, CSS, JavaScript, ChatGPT</p>
+
+    <h2>Contact</h2>
+    <p>Let's connect!</p>
+  </main>
+
+  <footer>
+    <p>© 2026 Yoshiki</p>
+  </footer>
+
+</body>
+</html>
