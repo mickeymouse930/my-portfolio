@@ -5,45 +5,248 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
+  <!-- CHANGE HERE: サイトのタイトル -->
   <title>Yoshiki | Web Developer</title>
 
-  <!-- STEP 4で作成するCSSファイル -->
+  <meta name="description"
+    content="Yoshiki's web development portfolio.">
+
   <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
 
-  <header>
-    <h2>YOSHIKI.</h2>
+  <!-- ===== HEADER ===== -->
+  <header class="header">
+    <nav class="navbar container">
+
+      <!-- CHANGE HERE: 名前 -->
+      <a href="#home" class="logo">
+        YOSHIKI<span>.</span>
+      </a>
+
+      <ul class="nav-links">
+        <li><a href="#about">About</a></li>
+        <li><a href="#works">Works</a></li>
+        <li><a href="#skills">Skills</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+
+    </nav>
   </header>
 
   <main>
-    <h1>Hi, I'm Yoshiki — Web Developer.</h1>
 
-    <p>
-      I'm learning web development and
-      working toward my future in Canada.
-    </p>
+    <!-- ===== HERO ===== -->
+    <section id="home" class="hero container">
 
-    <h2>About Me</h2>
-    <p>
-      I'm an aspiring web developer from Japan.
-    </p>
+      <p class="eyebrow">
+        WELCOME TO MY PORTFOLIO
+      </p>
 
-    <h2>My Works</h2>
-    <p>My projects are coming soon!</p>
+      <!-- CHANGE HERE: 自分の名前 -->
+      <h1>
+        Hi, I'm <span>Yoshiki</span><br>
+        — Web Developer.
+      </h1>
 
-    <h2>My Skills</h2>
-    <p>HTML, CSS, JavaScript, ChatGPT</p>
+      <p class="hero-description">
+        I create modern and user-friendly websites.
+        I'm learning web development and working
+        toward my future in Canada.
+      </p>
 
-    <h2>Contact</h2>
-    <p>Let's connect!</p>
+      <div class="hero-buttons">
+        <a href="#works" class="btn btn-primary">
+          View My Work ↗
+        </a>
+
+        <a href="#contact" class="btn btn-secondary">
+          Contact Me
+        </a>
+      </div>
+
+    </section>
+
+    <!-- ===== ABOUT ===== -->
+    <section id="about" class="section container">
+
+      <p class="eyebrow">01 / ABOUT ME</p>
+
+      <h2>About <span>Me.</span></h2>
+
+      <!-- CHANGE HERE: 自己紹介 -->
+      <p class="section-description">
+        Hello! I'm Yoshiki, an aspiring web
+        developer from Japan.
+      </p>
+
+      <p class="section-description">
+        I'm currently learning HTML, CSS,
+        JavaScript, and AI tools such as ChatGPT.
+      </p>
+
+      <p class="section-description">
+        My dream is to live and work in Canada,
+        build useful digital products,
+        and connect with people around the world.
+      </p>
+
+    </section>
+
+    <!-- ===== WORKS ===== -->
+    <section id="works" class="section container">
+
+      <p class="eyebrow">02 / MY PROJECTS</p>
+
+      <h2>Selected <span>Works.</span></h2>
+
+      <p class="section-description">
+        Here are some projects and ideas
+        from my web development journey.
+      </p>
+
+      <div class="works-grid">
+
+        <!-- CHANGE HERE: 作品1 -->
+        <article class="work-card">
+          <div class="work-image">
+            <span>01</span>
+            <h3>Portfolio Website</h3>
+          </div>
+
+          <div class="work-content">
+            <h3>Personal Portfolio</h3>
+            <p>
+              My first personal website built
+              with HTML and CSS.
+            </p>
+            <div class="tags">
+              <span>HTML</span>
+              <span>CSS</span>
+            </div>
+          </div>
+        </article>
+
+        <!-- CHANGE HERE: 作品2 -->
+        <article class="work-card">
+          <div class="work-image">
+            <span>02</span>
+            <h3>School Planner</h3>
+          </div>
+
+          <div class="work-content">
+            <h3>School Planner App</h3>
+            <p>
+              A school management app project
+              for organizing assignments.
+            </p>
+            <div class="tags">
+              <span>Web App</span>
+              <span>AI Tools</span>
+            </div>
+          </div>
+        </article>
+
+        <!-- CHANGE HERE: 作品3 -->
+        <article class="work-card">
+          <div class="work-image">
+            <span>03</span>
+            <h3>Coming Soon</h3>
+          </div>
+
+          <div class="work-content">
+            <h3>Future Project</h3>
+            <p>
+              More creative projects are
+              coming soon.
+            </p>
+            <div class="tags">
+              <span>Learning</span>
+            </div>
+          </div>
+        </article>
+
+      </div>
+
+    </section>
+
+    <!-- ===== SKILLS ===== -->
+    <section id="skills" class="section container">
+
+      <p class="eyebrow">03 / MY SKILLS</p>
+
+      <h2>Skills & <span>Tools.</span></h2>
+
+      <p class="section-description">
+        Technologies and tools I'm currently learning.
+      </p>
+
+      <div class="skills-grid">
+
+        <div class="skill-card">
+          <h3>HTML</h3>
+          <p>Website structure</p>
+        </div>
+
+        <div class="skill-card">
+          <h3>CSS</h3>
+          <p>Design & responsive layouts</p>
+        </div>
+
+        <div class="skill-card">
+          <h3>JavaScript</h3>
+          <p>Interactive web development</p>
+        </div>
+
+        <div class="skill-card">
+          <h3>ChatGPT</h3>
+          <p>AI-assisted development</p>
+        </div>
+
+      </div>
+
+    </section>
+
+    <!-- ===== CONTACT ===== -->
+    <section id="contact" class="section container">
+
+      <div class="contact-box">
+
+        <p class="eyebrow">04 / CONTACT</p>
+
+        <h2>Let's <span>Connect.</span></h2>
+
+        <p>
+          Interested in my work?
+          Feel free to get in touch!
+        </p>
+
+        <!-- CHANGE HERE: メールアドレス -->
+        <a href="mailto:your-email@example.com"
+          class="btn btn-primary">
+          Send an Email ↗
+        </a>
+
+      </div>
+
+    </section>
+
   </main>
 
-  <footer>
-    <p>© 2026 Yoshiki</p>
+  <!-- ===== FOOTER ===== -->
+  <footer class="footer">
+
+    <div class="container footer-content">
+
+      <!-- CHANGE HERE: 名前 -->
+      <p>© 2026 Yoshiki. All rights reserved.</p>
+
+      <p>Built with HTML & CSS.</p>
+
+    </div>
+
   </footer>
 
 </body>
 </html>
-
